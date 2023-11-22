@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.18",
     "flowbite": "^2.1.1",
     "lord-icon-element": "^4.1.2",
     "lottie-web": "^5.12.2",

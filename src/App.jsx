@@ -1,15 +1,17 @@
 import { useState } from 'react'
 import './App.css'
 import LeftSidebar from './components/leftSidebar'
-import RightSidebar from './components/rightSidebar'
+import Header from './components/header'
 
 
 function App() {
 
     return (
         <>
-            <LeftSidebar />
-            <RightSidebar />
+            <div className="flex">
+                <LeftSidebar />
+                {/* <Header /> */}
+            </div>
         </>
     )
 }
