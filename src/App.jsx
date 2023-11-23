@@ -4,13 +4,14 @@ import LeftSidebar from './components/leftSidebar'
 import Header from './components/header'
 
 
+
 function App() {
 
     return (
         <>
             <div className="flex">
-                <LeftSidebar />
-                {/* <Header /> */}
+                {/* <LeftSidebar /> */}
+                <Header />
             </div>
         </>
     )
