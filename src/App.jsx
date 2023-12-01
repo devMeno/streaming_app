@@ -22,6 +22,7 @@ function App() {
                     <Music />
                     <Music />
                 </div>
+                <RightComponent />
             </div> */}
             <RightComponent />
         </>
