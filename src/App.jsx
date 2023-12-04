@@ -10,7 +10,7 @@ function App() {
 
     return (
         <>
-            {/* <div className="flex">
+            <div className="flex">
                 <LeftSidebar />
                 <div className='w-full'>
                     <Header />
@@ -23,8 +23,8 @@ function App() {
                     <Music />
                 </div>
                 <RightComponent />
-            </div> */}
-            <RightComponent />
+            </div>
+            {/* <RightComponent /> */}
         </>
     )
 }
